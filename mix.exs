@@ -28,7 +28,7 @@ defmodule EflambeLive.MixProject do
   defp deps do
     [
       {:eflambe, "~> 0.3.0"},
-      {:kino, "~> 0.7.0"},
+      {:kino, "~> 0.8"},
 
       # Dev dependencies
       {:credo, "~> 1.6.7", only: [:dev, :test], runtime: false},
